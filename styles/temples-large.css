@@ -1,0 +1,32 @@
+@media screen and (min-width: 700px) {
+
+
+    nav ul li {
+        display: flex 1 1 100%;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    figure {
+        display: inline-block;
+        width: 30%;
+        margin: 1.5%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .burger {
+        display: none;
+    }
+
+}
