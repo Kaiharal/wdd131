@@ -23,7 +23,7 @@
     }
 
     figure {
-        display: inline-block;
+        display: inline-grid;
         width: 30%;
         margin: 1.5%;
     }
