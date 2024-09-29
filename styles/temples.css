@@ -5,9 +5,12 @@ body {
     padding: 0;
 }
 
+
+
 nav li {
     list-style-type: none;
     text-decoration: none;
+    grid: 1fr 1fr 1fr 1fr 1fr;
     flex-basis: 5%;
     margin: 5px;
     padding-right: 5%;
