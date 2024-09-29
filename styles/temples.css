@@ -9,7 +9,8 @@ nav li {
     list-style-type: none;
     text-decoration: none;
     flex-basis: 5%;
-    padding: 5px;
+    margin: 5px;
+    padding-right: 5%;
 
 }
 
@@ -19,7 +20,8 @@ h1 {
 
 .burger {
     cursor: pointer;
-
+    margin: 48%;
+    font-size: 30px;
 }
 
 .navigation {
