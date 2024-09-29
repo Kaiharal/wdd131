@@ -3,11 +3,18 @@
 
     nav ul li {
         display: flex;
+
     }
 
     .navigation {
         display: flex;
         justify-content: center;
+
+    }
+
+    nav ul {
+        max-width: 60%;
+        margin: auto;
     }
 
     main {
