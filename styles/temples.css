@@ -54,6 +54,9 @@ main {
     padding: 20px;
 }
 
+figcaption {
+    text-align: center;
+}
 
 img {
     width: 100%;
@@ -66,8 +69,4 @@ footer {
     text-align: center;
     padding: 10px;
 
-}
-
-figcaption {
-    text-align: center;
 }
