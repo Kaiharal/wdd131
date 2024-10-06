@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta description="Place assignment" content="Iceland site">
+    <meta name="author" content="Mason Allen">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
-    <title>Place</title>
+    <title>Iceland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/getWindChill.js" defer></script>
 </head>
@@ -18,8 +23,8 @@
     </header>
 
     <main>
-        <img class="main-image" srcset="images/puffin.webp, images/puffin2.jpg" sizes="( min-width: 1200px) 1200px"
-            src="images/puffin.webp" alt="Puffin in a field">
+        <img class="main-image" srcset="images/puffin.webp 1125w, images/puffin2.jpg 3237w"
+            sizes="( min-width: 1200px) 1200px" src="images/puffin.webp" alt="Puffin in a field">
         <section class="data">
             <h2>Data</h2>
             <ul>
@@ -39,7 +44,7 @@
                 <li>Wind: 5 mph</li>
                 <li>Wind Chill:<span id="wind-chill">?</span></li>
             </ul>
-
+        </section>
     </main>
     <footer>
         <p> &copy; <span id="currentYear"></span> - Mason Allen, USA</p>
