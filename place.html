@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <title>Place</title>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/getWindChill.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Iceland</h1>
+    </header>
+
+    <main>
+        <img class="main-image" srcset="images/puffin.webp, images/puffin2.jpg" sizes="( min-width: 1200px) 1200px"
+            alt="Puffin in a field">
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area : 39,769 mi²</li>
+                <li>Population : 382,003</li>
+                <li>Capital : Reykjavík</li>
+                <li>Languages : Icelandic</li>
+                <li>Time Zone : UTC +0</li>
+                <li>Currency : Icelandic Króna (ISK)</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather <img src="images/weather.svg" alt="Weather icon"></h2>
+            <ul>
+                <li>Temp: 24°C</li>
+                <li>Conditions: Partly Cloudy</li>
+                <li>Wind: 5 mph</li>
+                <li>Wind Chill:<span id="wind-chill">?</span></li>
+            </ul>
+
+    </main>
+    <footer>
+        <p> &copy; <span id="currentYear"></span> - Mason Allen, USA</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+
+
+</body>
+
+</html>
