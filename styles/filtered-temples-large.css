@@ -1,0 +1,45 @@
+@media screen and (min-width: 700px) {
+
+
+    nav ul li {
+        display: flex;
+
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul {
+        max-width: 55%;
+        margin: auto;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    figure {
+        display: inline-grid;
+        width: 30%;
+        margin: 1.5%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .temple-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+
+}
