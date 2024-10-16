@@ -37,12 +37,3 @@ products.forEach((product) => {
     option.textContent = product.name;
     productSelect.appendChild(option);
 });
-
-if (window.location.pathname.includes("review.html")) {
-    reviewCount = localStorage.getItem("reviewCount");
-    if (!reviewCount) {
-        reviewCount = 0;
-    }
-    reviewCount++;
-    document.body.innerHTML = `<h1>total reviews: ${reviewCount}</p>`;
-}
