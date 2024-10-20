@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  font-family: "Chakra Petch", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+header {
+  background-color: #585858;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  width: 60%;
+}
+
+
+.SU-keyword {
+  color: #219ffb;
+  display: inline;
+}
+
+.terminid-keyword {
+  color: #d9b111;
+  display: inline;
+}
+
+.automaton-keyword {
+  color: #fe6d6a;
+  display: inline;
+}
+
+.color-schema p, .scenarios p {
+  display: inline;
+}
+
+.wireframe img{
+  max-width: 100%;
+}
+div {
+  border: 5px solid #585858;
+  margin: 10px;
+  padding: 10px;
+}
