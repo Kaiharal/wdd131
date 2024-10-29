@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    font-family: "Chakra Petch", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+header {
+    background-color: #585858;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    width: 60%;
+}
+
+.SU-keyword {
+    color: #219ffb;
+    display: inline;
+}
+
+.terminid-keyword {
+    color: #d9b111;
+    display: inline;
+}
+
+.automaton-keyword {
+    color: #fe6d6a;
+    display: inline;
+}
+
+.updates {
+    display: inline;
+}
+
+
+.homepage {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 1fr 30%;
+}
+
+.homepage p {
+    display: inline;
+}
+
+.major-order {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.personal-order {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.homepage img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+}
+
+div {
+    border: 5px solid #585858;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 45%;
+    margin: auto;
+
+}
+
+ul li {
+    background-color: rgb(78, 78, 78);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: -5px;
+    font-size: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #219ffb;
+}
+
+li a :visited {
+    color: none;
+}
+
+li a :active {
+    color: #d9b111;
+}
+
+.factions {
+    display: none;
+    justify-content: space-around;
+    max-width: 45%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .homepage img {
+        display: none;
+    }
+
+    .major-order,
+    .personal-order {
+        grid-column: 1/3;
+    }
+
+}
+
+footer {
+    background-color: #585858;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
