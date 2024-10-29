@@ -56,7 +56,7 @@ main {
 .personal-order {
     grid-column: 2;
     grid-row: 2;
-    padding: auto;
+    padding-bottom: 10px;
 }
 
 .homepage img {
